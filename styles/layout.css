@@ -1,0 +1,167 @@
+header {
+  background-color: rgb(168, 167, 167);
+  border:1px solid rgb(75, 75, 75);
+  border-bottom: none;
+}
+
+div {
+  background-color: rgb(168, 167, 167);
+}
+
+.letter {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.dimensions {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (min-width:801px) {
+  .mobile {
+    display: none;
+  }
+
+  #a {
+    height: 100px;
+    width: 99.7%;
+  }
+
+  #b {
+    float: left;
+    height: 600px;
+    width: 20%;
+    border: 1px solid rgb(75, 75, 75);
+  }
+
+  #c {
+    width: 39.8%;
+    height: 200px;
+    float: left;
+    border-top: 1px solid rgb(75, 75, 75);
+    border-bottom: none;
+    border-right: 1px solid rgb(75, 75, 75);
+  }
+  #d {
+    width: 39.7%;
+    height: 200px;
+    float: left;
+    border-top: 1px solid rgb(75, 75, 75);
+    border-bottom: none;
+    border-right: 1px solid rgb(75, 75, 75);
+  }
+
+  #e {
+    width: 19.85%;
+    height: 250px;
+    float: left;
+    border-top: 1px solid rgb(75, 75, 75);
+    border-bottom: none;
+    border-right: 1px solid rgb(75, 75, 75);
+  }
+  #f {
+    width: 19.85%;
+    height: 250px;
+    float: left;
+    border-top: 1px solid rgb(75, 75, 75);
+    border-bottom: none;
+    border-right: 1px solid rgb(75, 75, 75);
+  }
+  #g {
+    width: 19.84%;
+    height: 250px;
+    float: left;
+    border-top: 1px solid rgb(75, 75, 75);
+    border-bottom: none;
+    border-right: 1px solid rgb(75, 75, 75);
+  }
+  #h {
+    width: 19.8%;
+    height: 250px;
+    float: left;
+    border-top: 1px solid rgb(75, 75, 75);
+    border-bottom: none;
+    border-right: 1px solid rgb(75, 75, 75);
+  }
+  #i {
+    width: 79.65%;
+    height: 148px;
+    float: left;
+    border: 1px solid rgb(75, 75, 75);
+    border-left: none;
+  }
+  
+}
+
+@media screen and (max-width:800px) {
+  .desktop {
+    display: none;
+  }
+
+  #a {
+    width: 99.5%;
+    height: 75px;
+  }
+
+  #b {
+    height: 150px;
+    width: 99.5%;
+    border: 1px solid rgb(75, 75, 75);
+    border-bottom:none;
+  }
+
+  #c {
+    width: 99.5%;
+    height: 125px;
+    border: 1px solid rgb(75, 75, 75);
+    border-bottom:none;
+  }
+
+  #d {
+    width: 99.5%;
+    height: 125px;
+    border: 1px solid rgb(75, 75, 75);
+    border-bottom:none;
+  }
+
+  #e {
+    width: 49.65%;
+    height: 250px;
+    float: left;
+    border: 1px solid rgb(75, 75, 75);
+    border-bottom: none;
+  }
+
+  #f {
+    width: 49.65%;
+    height: 250px;
+    float: left;
+    border-top: 1px solid rgb(75, 75, 75);
+    border-right: 1px solid rgb(75, 75, 75)
+  }
+
+  #g {
+    width: 49.65%;
+    height: 250px;
+    float: left;
+    border: 1px solid rgb(75, 75, 75);
+    border-bottom: none;
+  }
+
+  #h {
+    width: 49.65%;
+    height: 250px;
+    float: left;
+    border-top: 1px solid rgb(75, 75, 75);
+    border-right: 1px solid rgb(75, 75, 75)
+  }
+
+  #i {
+    width: 99.5%;
+    height: 80px;
+    float: left;
+    border: 1px solid rgb(75, 75, 75);
+  }
+}

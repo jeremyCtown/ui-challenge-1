@@ -1,0 +1,19 @@
+body {
+  position: relative;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+
+@media screen and (min-width:801px) {
+  body {
+    max-width:960px;
+    min-width:768px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  body {
+    max-width:768px;
+    min-width:480px;
+  }
+}
