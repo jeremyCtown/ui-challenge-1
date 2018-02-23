@@ -1,32 +1,24 @@
-header {
-  background-color: rgb(168, 167, 167);
-  border:1px solid rgb(75, 75, 75);
-  border-bottom: none;
-}
 
 div {
   background-color: rgb(168, 167, 167);
+  display: table;
 }
 
 .letter {
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-.dimensions {
-  position: relative;
-  margin: auto;
-  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; 
 }
 
 @media screen and (min-width:801px) {
-  .mobile {
-    display: none;
-  }
+
 
   #a {
     height: 100px;
     width: 100%;
+    border:1px solid rgb(75, 75, 75);
+    border-bottom: none;
+    text-align: center;
   }
 
   #b {
@@ -44,6 +36,7 @@ div {
     border-bottom: none;
     border-right: 1px solid rgb(75, 75, 75);
   }
+
   #d {
     width: 40%;
     height: 200px;
@@ -61,6 +54,7 @@ div {
     border-bottom: none;
     border-right: 1px solid rgb(75, 75, 75);
   }
+
   #f {
     width: 20%;
     height: 250px;
@@ -69,6 +63,7 @@ div {
     border-bottom: none;
     border-right: 1px solid rgb(75, 75, 75);
   }
+
   #g {
     width: 20%;
     height: 250px;
@@ -77,6 +72,7 @@ div {
     border-bottom: none;
     border-right: 1px solid rgb(75, 75, 75);
   }
+
   #h {
     width: 20%;
     height: 250px;
@@ -85,6 +81,7 @@ div {
     border-bottom: none;
     border-right: 1px solid rgb(75, 75, 75);
   }
+  
   #i {
     width: 80%;
     height: 148px;
@@ -96,9 +93,6 @@ div {
 }
 
 @media screen and (max-width:800px) {
-  .desktop {
-    display: none;
-  }
 
   #a {
     width: 100%;
